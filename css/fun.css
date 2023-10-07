@@ -1,0 +1,145 @@
+Html{
+ font-size: 32px;
+}
+table{
+width:40vw;
+height:70vh;
+background-color:black;
+border-radius: 30px;
+}
+tr{  
+width:50%;
+height: 20px;
+background-color:black;
+
+}
+td{
+    font-size: 10px;
+    color:white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th{
+    font-size:large;
+    color:white;
+}
+tr th{
+  text-align: center;  
+  text-transform: uppercase;
+  font-weight:bolder;
+  font-size: 10pxrem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+tr:last-child{
+    background-color:black;
+
+}
+
+/* tr:not(tr:first-child) :hover{ 
+text-align: center;
+font-size:2rem;
+background-color: orange;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-transform: intial;
+}
+tr:not(tr:first-child) :hover td:after{
+    position: absolute;
+    content: "X";
+    bottom: 0px;
+    color:white;
+    }
+/* #greatgreatgrandparent.first{ 
+color:blueviolet;
+font-size: 2rem;
+
+ } 
+
+#greatgreatgrandparent.second{
+    color:orangered;
+    font-size: 2rem;
+}
+#greatgreatgrandparent.third{
+    color:black;
+    font-size: 2rem;
+}
+
+#greatgreatgrandparent.fourth{
+    color:green;
+    font-size: 2rem;
+/* } */
+
+/* #grandparent>div{ *
+    color:green;
+    font-size:10px;
+}
+input[type]{
+    display: block;
+    background-color:blue;
+
+}
+#parent >div{
+    color:red;
+font-size: 10px;
+/* } */
+
+/* #drink > div,#smoke > div{ *
+color:blue;
+font-size: 20px;
+/* } */
+/* #drink > div{ 
+color:red;
+font-size:10px;
+font-display:block;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#smoke > div{
+color:brown;
+font-size:20px;
+font-display:flex;
+font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+
+/* } */
+
+/* .first{  
+    color: beige;
+    font-size: 20px;
+ } 
+
+ .second{ 
+    color: blue;
+    font-size: 20px;
+ } 
+/* .first:hover{ *
+    color:red;
+    font-size: 4rem;
+/* } 
+.first::part{
+    color:green;
+    text-transform:uppercase;
+    font: size 5rem;
+    font-family:algerian;
+/* /* } */
+/* h1{ *
+width:50vw;
+height:70vh;
+border:4px solid magenta;
+position:absolute;
+left:200px;
+top:100px;
+bottom:0px;
+
+
+}
+div{
+width:25vw;
+height:30vh;
+border:2px solid greenyellow;
+position: absolute;
+left:100px;
+top:50px;
+ /* bottom:0px; * */
+
+/* } */
